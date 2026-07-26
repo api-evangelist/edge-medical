@@ -1,8 +1,24 @@
 aid: edge-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edge-medical.png
 name: Edge Medical
-description: 'Edge Medical is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Edge Medical is one of the fastest growing medical device distributors, operating in the
+  healthcare sector as a portfolio company of Hongshan (formerly Sequoia Capital China). It was surfaced
+  from the Hongshan portfolio and added to the API Evangelist network for enrichment. The Hongshan
+  portfolio record classifies it as a medical device distribution business rather than an API provider
+  (is_api_provider: false); no public developer portal, API documentation, or machine-readable API
+  surface has been identified for it, and no company website URL is published in the source portfolio
+  listing. This profile remains a lead pending discovery of any first-party developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/edge-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Medical Device Distribution
+- Distribution
+- Supply Chain
+- Hongshan Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
